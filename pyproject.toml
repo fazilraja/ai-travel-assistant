@@ -1,0 +1,19 @@
+[project]
+name = "ai-travel-assistant"
+version = "0.1.0"
+description = "AI-powered travel booking assistant with Amadeus API integration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "fastapi>=0.115.13",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.3",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
+]
